@@ -1,15 +1,15 @@
-export const articles = {
-    article1: {
+export const articles = [
+    {
         id: 1,
         title: "WebGPU",
         content: "Contenu de l'article 1.",
-        soustitre: "Contenu de l'article 1.",
-        content2: "Contenu de l'article 1.",
+        soustitre: "Sous titre de l'article 1.",
+        content2: "Contenu 2 de l'article 1.",
         source: {
-            "": ""
+            "A": "bcdef"
         },
     },
-    article2: {
+    {
         id: 2,
         title: "State of CSS",
         content: "Contenu de l'article 2.",
@@ -19,7 +19,7 @@ export const articles = {
             "": ""
         },
     },
-    article3: {
+    {
         id: 3,
         title: "CSS Nesting",
         categorie: "",
@@ -30,7 +30,7 @@ export const articles = {
             "": ""
         },
     },
-    article4: {
+    {
         id: 4,
         title: "What's New in JavaScript in 2023",
         categorie: "JavaScript",
@@ -41,7 +41,7 @@ export const articles = {
             "freecodecamp": "https://www.freecodecamp.org/news/the-biggest-changes-in-javascript-this-year/?ref=dailydev",
         }
     },
-    article5: {
+    {
         id: 5,
         title: "Cyberattaque à la maire de Saint-Philippe",
         categorie: "Cybersécurité",
@@ -55,7 +55,7 @@ export const articles = {
             "Saint-Philippe" : "https://saintphilippe.re/communique-la-ville-de-saint-philippe-est-victime-dune-cyberattaque/",
         } 
     },
-    article6: {
+    {
         id: 6,
         title: "Cyberattaques à La Réunion",
         Categorie: "Cybersécurité",
@@ -67,4 +67,4 @@ export const articles = {
         } 
     },
     // Ajoutez ici d'autres articles avec leurs titres et contenus
-};
+];

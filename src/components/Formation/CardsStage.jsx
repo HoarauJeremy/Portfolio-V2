@@ -1,7 +1,7 @@
 export default function CardsStage(props) {
     const {id, poste, lieu, date, taches} = props;
     return (
-        <div id="card" key={id} className="bg-slate-50 rounded shadow-md shadow-slate-300 m-2 pl-2">
+        <div id="card" key={id} className="bg-slate-100 rounded shadow-md shadow-slate-300 m-2 p-2">
             {/* <div id="container" className="bg-red-500"> */}
                 <h3 className="text-2xl font-rubik">{poste}</h3>
                 <p className="font-victor font-medium">{lieu}</p>

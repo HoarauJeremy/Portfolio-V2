@@ -1,4 +1,4 @@
-import { articles } from "../../data/articles"
+import { articles } from "../../data/articles copy"
 
 export default function ShowArticle({ articleId }) {
     const selectedArticle = articles[articleId];
