@@ -37,7 +37,7 @@ export default function Single() {
                         <ul>
                             {Object.entries(post.source).map(([ sourceName, sourceLink ]) => (
                                 <li className="pt-1 md:pt-0" key={sourceName}>
-                                    <span className="font-semibold">- {sourceName.toUpperCase()}:</span> <a className="break-words" href={sourceLink} target="_blank" rel="noopener noreferrer">{sourceLink}</a>
+                                    <span className="font-semibold">- {sourceName.toUpperCase()}:</span> <a className="break-words hover:text-blue-800" href={sourceLink} target="_blank" rel="noopener noreferrer">{sourceLink}</a>
                                 </li>
                             ))}
                         </ul>

@@ -4,7 +4,9 @@ export const listStage = [
         poste: 'Stagiare entant que Dévellopeur Web',
         lieu: 'Jean Daniel Cazal (Auto-Entreprise)',
         date: '15/01/2024 au 24/02/2024',
-        taches: 'Développement d\'un site web pour l\'association Ekopratik'
+        taches: 'Développement d\'un site web (de statistique (réaliser avec CakePHP)) pour l\'association Ekopratik,\
+        et d\'un site de gestion d\'inventaire (réaliser en React.js, Laravel et Tailwind CSS)'
+        // peut être mettre le lien vers le github ?
     },
     {
         id: 2,

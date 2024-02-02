@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import menu from "../assets/burger-menu-svgrepo-com.svg";
 import cross from "../assets/times-svgrepo-com.svg";
 // import Presentation from './Header/Presentation';
+import { pdf } from "../assets/formation_web.pdf";
 
 export default function Header() {
 
@@ -57,18 +58,18 @@ export default function Header() {
                     </li>
                     
                     <li className="py-4 md:py-0 md:mr-6">
-                        <a href="#contact" id="Header-a" 
-                        className="w-full text-sm font-semibold uppercase">Contact</a>
+                        <Link to="contact" id="Header-a" 
+                        className="w-full text-sm font-semibold uppercase">Contact</Link>
                     </li>
                     
                     <li className="py-4 md:py-0 md:mr-6">
-                        <a href="assets/CV - jérémy hoarau.pdf" id="Header-a" 
+                        <a href={ pdf } id="Header-a" target="_blank" rel="noreferrer" 
                         className="w-full text-sm font-semibold uppercase">CV</a>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <input type="checkbox" id="theme" />
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
             </header>

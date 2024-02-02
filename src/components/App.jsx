@@ -7,6 +7,7 @@ import { articles } from "../data/articles copy"
 import Single from "../pages/single"
 import Veille from "./Veille/Veille"
 import Mention from "./Mention"
+import Contact from "./Contact"
 
 const router = createBrowserRouter([
 	{
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
 						errorElement: <PageError />
 					}
 				]
+			},
+			{
+				path: 'contact',
+				element: <Contact/>
 			},
 			{
 				path: 'mention',
