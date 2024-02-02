@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import menu from "../assets/burger-menu-svgrepo-com.svg";
 import cross from "../assets/times-svgrepo-com.svg";
-// import Presentation from './Header/Presentation';
-import { pdf } from "../assets/formation_web.pdf";
 
 export default function Header() {
 
@@ -63,8 +61,8 @@ export default function Header() {
                     </li>
                     
                     <li className="py-4 md:py-0 md:mr-6">
-                        <a href={ pdf } id="Header-a" target="_blank" rel="noreferrer" 
-                        className="w-full text-sm font-semibold uppercase">CV</a>
+                        <Link to='CV' id="Header-a" target="_blank" rel="noreferrer" 
+                        className="w-full text-sm font-semibold uppercase">CV</Link>
                     </li>
 
                     {/* <li>
@@ -73,54 +71,6 @@ export default function Header() {
                 </ul>
             </nav>
             </header>
-            
-            {/* <Presentation /> */}
         </>
     )
 }
-
-{/* 
-    const toggleMenuBtn = document.querySelector("#menu-btn");
-    const toggleMenuImg = document.querySelector("#menu-btn img");
-    const toggledMenu = document.querySelector("#toggled-menu");
-    const menuLinks = document.querySelector("#main-nav ul a");
-
-    toggleMenuBtn.addEventListener("click", toggleNav);
-
-    function toggleNav(){
-        toggledMenu.classList.toggle("-translate-y-full")
-
-        if(toggledMenu.classList.contains("-translate-y-full")) {
-            toggleMenuImg.setAttribute("src", "../assets/burger-menu-svgrepo-com.svg")
-            toggleMenuBtn.setAttribute("aria-expanded", "false")
-        } 
-        else {
-            toggleMenuImg.setAttribute("src", "../assets/times-svgrepo-com.svg")
-            toggleMenuBtn.setAttribute("aria-expanded", "true")
-        }
-    } 
-*/}
-
-{/* <header id="Header-div" className='fixed top-0 z-50 w-full bg-white shadow'>
-<div className="navig">
-    <div className="navig-title">
-        <h1>
-            <a href='./' className='nav-a'>Jérémy Hoarau</a>
-            <button className='hamburger' aria-label='Toggle navigation' aria-expanded='false' />
-            <button className='hamburger' aria-label='Toggle navigation' aria-expanded='false'>
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>}
-
-        </h1>
-    </div>
-
-    <nav>
-        <a href="#projet" className="Header-a">Projet</a>
-        <a href="#veille" className="Header-a">Veille Technologique</a>
-        <a href="#contact" className="Header-a">Contact</a>
-        <a href="assets/CV - jérémy hoarau.pdf" className="Header-a">CV</a>
-    </nav>
-</div>
-</header> */}
