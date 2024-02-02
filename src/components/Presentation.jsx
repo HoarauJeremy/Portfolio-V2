@@ -1,9 +1,9 @@
 export default function Presentation() {
     return (
         <div id='Pres' 
-        className="pt-10 md:pt-16 w-auto h-screen flex justify-center items-center bg-red-700">
+        className="flex items-center justify-center w-auto h-screen pt-10 bg-red-700 md:pt-16">
             <div id='Pres-Texte' className="lg:grid lg:grid-cols-2 h-5/6">
-                <div id="titre" className="text-white bg-slate-950 rounded-md h-2/5 md:h-80 max-w-3xl w-11/12 mx-auto p-2">
+                <div id="titre" className="w-11/12 max-w-3xl p-2 mx-auto text-white rounded-md bg-slate-950 h-2/5 md:h-80">
                     <h2>
                         Hello World!!!!
                     </h2>
