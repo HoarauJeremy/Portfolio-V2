@@ -61,7 +61,7 @@ export default function Header() {
                     </li>
                     
                     <li className="py-4 md:py-0 md:mr-6">
-                        <Link to='CV' id="Header-a" target="_blank" rel="noreferrer" 
+                        <Link to='CV' id="Header-a" 
                         className="w-full text-sm font-semibold uppercase">CV</Link>
                     </li>
 

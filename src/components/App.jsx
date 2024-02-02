@@ -8,6 +8,7 @@ import Single from "../pages/single"
 import Veille from "./Veille/Veille"
 import Mention from "./Mention"
 import Contact from "./Contact"
+import Viewer from "./CV/Viewer"
 
 const router = createBrowserRouter([
 	{
@@ -45,7 +46,8 @@ const router = createBrowserRouter([
 			},
 			{
 				path: 'CV',
-				element: <div>CV</div>
+				element: <Viewer />,
+				errorElement: <PageError />
 			},
 			{
 				path: 'mention',
