@@ -31,7 +31,7 @@ const router = createBrowserRouter([
 						path: ':id',
 						element: <Single />,
 						loader: ({ params }) => {
-							const postId = parseInt(params.id, 10); // Assurez-vous de convertir l'identifiant en nombre
+							const postId = parseInt(params.id, 10); // Convertie l'identifiant en nombre
 							const post = articles.find(article => article.id === postId);
 							// Gérez le cas où le post n'est pas trouvé, par exemple, redirigez l'utilisateur vers une page d'erreur 404
 							return (!post) ? Promise.reject(new Error("Post not found")) : Promise.resolve({ post });

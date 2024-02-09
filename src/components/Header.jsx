@@ -40,14 +40,14 @@ export default function Header() {
                 </button>
                 <ul id="toggled-menu" className="absolute left-0 flex flex-col items-center w-full text-gray-800 -translate-y-full bg-gray-100 border-b border-gray-200 top-full -z-10 md:bg-transparent md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
 
-                    <li className="py-4 md:py-0 md:mr-6">
+                    {/* <li className="py-4 md:py-0 md:mr-6">
                         <a href="#formation" id="Header-a" 
                         className="w-full text-sm font-semibold uppercase">Formation</a>
                     </li>
                     <li className="py-4 md:py-0 md:mr-6">
                         <a href="#projet" id="Header-a" 
                         className="w-full text-sm font-semibold uppercase">Projet</a>
-                    </li>
+                    </li> */}
                     
                     <li className="py-4 md:py-0 md:mr-6">
                         <Link to="veille" id="Header-a" 
