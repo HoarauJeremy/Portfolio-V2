@@ -34,6 +34,7 @@ export default function Viewer() {
 
     return (
         <div className="w-full my-24 md:mx-auto md:w-2/4">
+            
             <div className="flex flex-col justify-center w-full px-2 pt-12 mt-12 bg-gray-300">
                 <p>
                     {/* Rajouter un bouton pour telecharger le pdf */}

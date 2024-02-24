@@ -7,7 +7,6 @@ export default function Blog() {
         <ul>
             {postsDesc.map((post) => (
                 <li key={post.id}
-                    // className="py-2 my-1 text-lg font-semibold rounded shadow bg-slate-200 dark:bg-slate-800 shadow-slate-50">
                     className="flex items-center py-2 my-1 text-lg font-semibold rounded shadow bg-slate-200 shadow-slate-50 hover:bg-slate-300">
                         <span className="pr-2 ml-2 border-r border-black">{post.id}</span>
                     <Link 

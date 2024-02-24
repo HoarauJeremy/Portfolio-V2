@@ -2,7 +2,6 @@ import { Outlet } from "react-router-dom";
 
 export default function Veille() {
     return(
-        // <div className="flex flex-col w-full h-full pt-10 dark:text-white md:pt-16 ">
         <div className="flex flex-col w-full h-full pt-10 md:pt-16 ">
             <div className="mx-auto mt-20">
                 <div id="titre" className="text-2xl font-bold text-center font-victor">
