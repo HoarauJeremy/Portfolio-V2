@@ -13,5 +13,3 @@ Currently, two official plugins are available:
 > React Router Dom
 > 
 > React-simple-typewriter
-> 
-> (i18n)
