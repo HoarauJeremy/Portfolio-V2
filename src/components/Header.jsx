@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import menu from "../assets/burger-menu-svgrepo-com.svg";
 import cross from "../assets/times-svgrepo-com.svg";
-import pdfURL from './CV/test.pdf'
+import pdfURL from './CV/Jeremy_Hoarau_CV.pdf'
 
 
 export default function Header() {

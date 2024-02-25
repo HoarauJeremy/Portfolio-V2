@@ -8,7 +8,8 @@ export const articles = [
             "Contenu 2 de l'article 1.",
         ],
         source: {
-            "A": "bcdef"
+            "MDN web docs": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+            "Chrome for Developpers": "https://developer.chrome.com/blog/webgpu-io2023?hl=fr",
         },
     },
     {
@@ -20,7 +21,7 @@ export const articles = [
             "Contenu de l'article 2.",
         ],
         source: {
-            "": ""
+            "State of CSS": "https://2023.stateofcss.com/en-US",
         },
     },
     {
@@ -33,7 +34,8 @@ export const articles = [
             "Contenu de l'article 3.",
         ],
         source: {
-            "": ""
+            "w3.org": "https://www.w3.org/TR/css-nesting-1/",
+            "MDN web docs": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting",
         },
     },
     {
