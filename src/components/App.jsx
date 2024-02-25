@@ -1,4 +1,4 @@
-import { Outlet, RouterProvider, createBrowserRouter, useRouteError } from "react-router-dom"
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom"
 import Index from "./Index"
 import Header from "./Header"
 import Footer from "./Footer"
@@ -7,13 +7,13 @@ import { articles } from "../data/articles"
 import Single from "../pages/single"
 import Veille from "./Veille/Veille"
 import Mention from "./Mention"
-import Contact from "./Contact"
+import Error from "../pages/Error"
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <Root />,
-		errorElement: <PageError />,
+		errorElement: <Error />,
 		children: [
 			{ index: true, element: <Index />},
 			{
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 						path: '',
 						element: <Blog/>,
 						loader: () => articles,
-						errorElement: <PageError />
+						errorElement: <Error />
 					},
 					{
 						path: ':id',
@@ -34,13 +34,9 @@ const router = createBrowserRouter([
 							const post = articles.find(article => article.id === postId);
 							return (!post) ? Promise.reject(new Error("Post not found")) : Promise.resolve({ post });
 						},
-						errorElement: <PageError />
+						errorElement: <Error />
 					}
 				]
-			},
-			{
-				path: 'contact',
-				element: <Contact/>
 			},
 			{
 				path: 'MentionLegale',
@@ -56,20 +52,6 @@ function Root() {
 			<Outlet/>
 		<Footer/>
 	</>
-}
-
-function PageError() {
-	const error = useRouteError()
-	return ( 
-		<>
-			<div>
-				<h1>Erreur</h1>
-				<p>
-					{error?.error?.toString() ?? error?.toString()}
-				</p>
-			</div>
-		</>
-	)
 }
 
 function App() {
