@@ -33,23 +33,7 @@ export default function Mention() {
                         <p>Par email : <a href="mailto:jeremyhoarau44@gmail.com">jeremyhoarau44@gmail.com</a></p>
                         <p>Par courrier : 39 chemin Auguste Boyer, 97480 Saint-joseph, La Réunion</p>
                         {/* Génération des mentions légales par Legalstart. */}
-                    </div>
-
-{/*
-Propriété intellectuelle
-Les contenus de ce site internet, tels que les textes, les images, les vidéos, les logos, les chartes graphiques, les logiciels, etc. sont protégés par le droit de la propriété intellectuelle et appartiennent à BARRET Toma ou à leurs auteurs respectifs. Toute reproduction, représentation, modification, exploitation commerciale ou non, ainsi que toute diffusion, totale ou partielle, sans l'autorisation préalable et écrite de BARRET Toma ou de leurs auteurs respectifs, est strictement interdite.
-Les images utilisées sur ce site internet sont libres de droit et ont été obtenues auprès des sources suivantes :
-de Altmann sur pixabay
-de vectorjuice sur Freepik
-de rawpixel.com sur Freepik
-Données personnelles
-De manière générale, vous n'êtes pas tenu de nous communiquer vos données personnelles lorsque vous visitez le site Internet https://toma-barret.fr.
-Cependant, ce principe comporte certaines exceptions. En effet, vous pouvez être amenés à nous communiquer certaines données telles que : votre nom ou votre adresse électronique.
-Dans tous les cas, vous pouvez refuser de fournir vos données personnelles. Dans ce cas, vous ne pourrez pas utiliser les services du site, notamment celui de solliciter des renseignements. */}
-
-
-
-                    
+                    </div>                    
                 </div>
             </div>
         </>
