@@ -5,16 +5,16 @@ import Stage from "./Stage";
 export default function Forma() {
     return (
         <>
-			<div id="formation" className="w-full h-auto bg-blue-500">
-				<div id="etude" className="bg-white w-11/12 mx-auto p-3">
-					<div id="titre" className="font-bold text-2xl font-rubik text-center">
+			<div id="formation" className="w-11/12 h-auto mx-auto rounded-md bg-slate-300">
+				<div id="etude" className="p-3 mx-auto">
+					<div id="titre" className="text-2xl font-bold text-center font-rubik">
 						<h2>Mes études</h2>
 					</div>
 					<Etude />
 				</div>
 
-				<div id="Competance" className="bg-white w-11/12 mx-auto p-3">
-					<div id="titre" className="font-bold text-2xl font-rubik text-center">
+				<div id="Competance" className="w-11/12 p-3 mx-auto">
+					<div id="titre" className="text-2xl font-bold text-center font-rubik">
 						<h2>Mes competences</h2>
 					</div>
 					
@@ -23,8 +23,8 @@ export default function Forma() {
 					</div>
 				</div>
 
-				<div id="stage" className="bg-white w-11/12 mx-auto p-3">
-					<div id="titre" className="font-bold text-2xl font-rubik text-center">
+				<div id="stage" className="p-3">
+					<div id="titre" className="text-2xl font-bold text-center font-rubik">
 						<h2>Mes Stage</h2>
 					</div>
 					<div className="w-full h-auto md:flex md:justify-around md:items-center">

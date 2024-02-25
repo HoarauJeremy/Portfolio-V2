@@ -12,6 +12,6 @@ Currently, two official plugins are available:
 
 > React Router Dom
 > 
-> React-pdf
+> React-simple-typewriter
 > 
 > (i18n)

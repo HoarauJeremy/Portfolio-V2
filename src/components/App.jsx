@@ -3,12 +3,11 @@ import Index from "./Index"
 import Header from "./Header"
 import Footer from "./Footer"
 import Blog from "../pages/Blog"
-import { articles } from "../data/articles copy"
+import { articles } from "../data/articles"
 import Single from "../pages/single"
 import Veille from "./Veille/Veille"
 import Mention from "./Mention"
 import Contact from "./Contact"
-import Viewer from "./CV/Viewer"
 
 const router = createBrowserRouter([
 	{
@@ -31,9 +30,8 @@ const router = createBrowserRouter([
 						path: ':id',
 						element: <Single />,
 						loader: ({ params }) => {
-							const postId = parseInt(params.id, 10); // Assurez-vous de convertir l'identifiant en nombre
+							const postId = parseInt(params.id, 10); // Convertie l'identifiant en nombre
 							const post = articles.find(article => article.id === postId);
-							// Gérez le cas où le post n'est pas trouvé, par exemple, redirigez l'utilisateur vers une page d'erreur 404
 							return (!post) ? Promise.reject(new Error("Post not found")) : Promise.resolve({ post });
 						},
 						errorElement: <PageError />
@@ -45,12 +43,7 @@ const router = createBrowserRouter([
 				element: <Contact/>
 			},
 			{
-				path: 'CV',
-				element: <Viewer />,
-				errorElement: <PageError />
-			},
-			{
-				path: 'mention',
+				path: 'MentionLegale',
 				element: <Mention />
 			}
 		]

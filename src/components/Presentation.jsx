@@ -1,21 +1,27 @@
+import { Typewriter } from "react-simple-typewriter";
+import Contact from "./Contact";
+
 export default function Presentation() {
+    const comp = ['JavaScript', 'React.JS', 'Tailwind CSS', 'MySQL', 'Java', 'Python', 'JavaScript, React.JS, Tailwind CSS, MySQL, Java et Python'];
+    
     return (
         <div id='Pres' 
-        className="flex items-center justify-center w-auto h-screen pt-10 bg-red-700 md:pt-16">
-            <div id='Pres-Texte' className="lg:grid lg:grid-cols-2 h-5/6">
-                <div id="titre" className="w-11/12 max-w-3xl p-2 mx-auto text-white rounded-md bg-slate-950 h-2/5 md:h-80">
-                    <h2>
-                        Hello World!!!!
-                    </h2>
+        className="flex items-center justify-center w-auto pt-10 mt-20 sm:h-[700px] sm:mt-0 md:pt-16">
+            <div id='Pres-Texte' className="flex flex-col w-3/4 p-2 sm:flex-row h-3/4">
+                <div className="w-full p-3 mx-auto text-white border rounded-md shadow h-80 sm:h-full bg-zinc-950 border-zinc-800 shadow-zinc-900">
+                    Je suis Jérémy Hoarau, un étudiant en BTS SIO (Services Informatique aux Organisations), passionner par le dévellopement Web. Et ayant des connaissance en {' '}
+                    <Typewriter
+                        words={comp}
+                        loop={1}
+                        cursor
+                        cursorStyle='_'
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                    />
                 </div>
-                <div id="Text" className="w-11/12 mx-auto text-lg">
-                    <p>Je suis <span className="font-bold">Jérémy Hoarau</span>, un étudiant en BTS SIO (Services Informatique aux Organisations), passionner par le dévellopement Web.
-                    Et ayant des connaissance en Java et Python.</p>
-                </div>
+                <Contact />
             </div>
-            {/* <div id='Pres-Img'>
-                <div id='Pres-resource'></div>
-            </div> */}
         </div>
     )
 }
