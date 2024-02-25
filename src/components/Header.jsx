@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import menu from "../assets/burger-menu-svgrepo-com.svg";
 import cross from "../assets/times-svgrepo-com.svg";
+import pdfURL from './CV/test.pdf'
+
 
 export default function Header() {
 
@@ -51,8 +53,7 @@ export default function Header() {
                         </li>
                         
                         <li className="py-4 md:py-0 md:mr-6">
-                            <Link to='CV' id="Header-a" 
-                            className="w-full text-sm font-semibold uppercase">CV</Link>
+                            <a href={pdfURL} target="blank__" className="w-full text-sm font-semibold uppercase">CV</a>
                         </li>
                     </ul>
                 </nav>

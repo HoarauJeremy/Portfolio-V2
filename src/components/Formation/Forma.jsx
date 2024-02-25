@@ -23,7 +23,7 @@ export default function Forma() {
 					</div>
 				</div>
 
-				<div id="stage" className="w-11/12 p-3 mx-auto">
+				<div id="stage" className="p-3">
 					<div id="titre" className="text-2xl font-bold text-center font-rubik">
 						<h2>Mes Stage</h2>
 					</div>

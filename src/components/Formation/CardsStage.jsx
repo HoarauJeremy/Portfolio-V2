@@ -11,10 +11,3 @@ export default function CardsStage(props) {
         </div>
     )
 }
-
-{/* <div id="card" key={idProjet}>
-<div id="container" className="w-11/12 pl-2 mx-auto my-2 bg-sky-950">
-    <h3 className="">{nom}</h3>
-    <p>{description}</p>
-</div>
-</div> */}

@@ -3,12 +3,11 @@ import Index from "./Index"
 import Header from "./Header"
 import Footer from "./Footer"
 import Blog from "../pages/Blog"
-import { articles } from "../data/articles copy"
+import { articles } from "../data/articles"
 import Single from "../pages/single"
 import Veille from "./Veille/Veille"
 import Mention from "./Mention"
 import Contact from "./Contact"
-import Viewer from "./CV/Viewer"
 
 const router = createBrowserRouter([
 	{
@@ -42,11 +41,6 @@ const router = createBrowserRouter([
 			{
 				path: 'contact',
 				element: <Contact/>
-			},
-			{
-				path: 'CV',
-				element: <Viewer />,
-				errorElement: <PageError />
 			},
 			{
 				path: 'MentionLegale',
