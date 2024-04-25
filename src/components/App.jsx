@@ -8,6 +8,7 @@ import Single from "../pages/single"
 import Veille from "./Veille/Veille"
 import Mention from "./Mention"
 import Error from "../pages/Error"
+import Documents from "./Documents"
 
 const router = createBrowserRouter([
 	{
@@ -37,6 +38,11 @@ const router = createBrowserRouter([
 						errorElement: <Error />
 					}
 				]
+			},
+			{
+				path: 'documents',
+				element: <Documents />,
+				errorElement: <Error />
 			},
 			{
 				path: 'MentionLegale',

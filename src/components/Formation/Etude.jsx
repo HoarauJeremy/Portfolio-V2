@@ -11,7 +11,7 @@ export default function Etude() {
                     <dd>- Année : 2020/2022</dd>
                 </div>
                 <div id='Forma-etude div4' className="p-2 my-2 rounded-md shadow-sm shadow-slate-300 bg-slate-100 md:mx-2 md:w-4/12 h-2/3">
-                    <dt>Bac professionnelle Système Numérique option RISC (Réseau Informatique et Système Communicant) :</dt>
+                    <dt>Bac professionnel Système Numérique option RISC (Réseau Informatique et Système Communicant) :</dt>
                     <dd>- Année : 2017/2020</dd>
                 </div>
             </div>

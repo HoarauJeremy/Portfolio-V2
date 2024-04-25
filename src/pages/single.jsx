@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 export default function Single() {
 
@@ -8,25 +8,28 @@ export default function Single() {
 
     return (
         <>
-            {/* <div className="flex justify-between w-full py-2 mx-auto md:w-3/4">
+            <div className="flex justify-between w-full py-2 mx-auto md:w-3/4">
                 <Link 
-                    onClick={() => { navigate(-1) }}
+                    to=".."
                     className="p-2 mx-1 font-semibold text-white bg-gray-700 rounded-md shadow shadow-slate-300 hover:bg-gray-500"
                 >Retour</Link>
-                <div className="flex">
+                {/* <div className="flex">
                     <Link
-                        to={ post.id }
+                        to=".."
                         className="p-2 mx-1 font-semibold text-white bg-gray-700 rounded-md shadow shadow-slate-300 hover:bg-gray-500"
                     >{'<'}Precedent</Link>
                     <Link
                         to={ post.id }
                         className="p-2 mx-1 font-semibold text-white bg-gray-700 rounded-md shadow shadow-slate-300 hover:bg-gray-500"
                     >Suivant&gt;</Link>
-                </div>
-            </div> */}
+                </div> */}
+            </div>
             
             <div className="px-2 pt-2 text-lg rounded-t-none shadow bg-stone-50 shadow-slate-200">
-                <h3 className="text-xl font-bold">{post.title}</h3>
+                <div className="flex items-center justify-between w-full">
+                    <h3 className="text-xl font-bold">{post.title}</h3>
+                    <h4 className="text-sm font-bold">{post.categorie}</h4>
+                </div>
                 {/*
                     <p className="pl-2">{post.content}</p>
                     <br />

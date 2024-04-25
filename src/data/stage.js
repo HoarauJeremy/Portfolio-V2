@@ -21,7 +21,7 @@ export const listStage = [
         id: 3,
         poste: 'Stagiaire au service Informatique',
         lieu: 'Lycée Pierre Poivre',
-        date: 'De mars à juillet 2021',
+        date: 'de mars à juillet 2021',
         taches: 'Déploiement de Système d\'exploitation depuis un serveur FOG,\
             création d\'un script SQL, préparation de postes pour des épreuves de BAC et de BTS.'
     },
@@ -30,7 +30,7 @@ export const listStage = [
         poste: 'Stagiaire au service Biomédical',
         lieu: 'CHU de Saint-Pierre',
         date: 'Mars 2019 (1 mois)',
-        taches: 'réparation de matériel médical.'
+        taches: 'Réparation de matériel médical.'
     },
     {
         id: 5,

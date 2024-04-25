@@ -12,7 +12,7 @@ export default function Contact() {
                 <li className="flex items-center my-4 md:mt-0">
                     <i className="fa-brands fa-linkedin fa-xl"></i>
                     <a className="mx-1 text-lg text-center font-rubik" href="https://www.linkedin.com/in/jérémy-hoarau-b31227276/" target="_blank" rel="noreferrer">
-                        <h2>Linkedin</h2>
+                        <h2>LinkedIn</h2>
                     </a>
                 </li>
                 

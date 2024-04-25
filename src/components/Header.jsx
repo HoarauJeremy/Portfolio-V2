@@ -48,6 +48,11 @@ export default function Header() {
                         </li>
                         
                         <li className="py-4 md:py-0 md:mr-6">
+                            <Link to="documents" id="Header-a" 
+                            className="w-full text-sm font-semibold uppercase">Documents</Link>
+                        </li>
+                        
+                        <li className="py-4 md:py-0 md:mr-6">
                             <Link to="veille" id="Header-a" 
                             className="w-full text-sm font-semibold uppercase">Veille</Link>
                         </li>
