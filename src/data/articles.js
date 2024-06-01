@@ -87,6 +87,52 @@ export const articles = [
             "Kickstarter" : "https://www.kickstarter.com/projects/fontawesome/web-awesome",
         } 
     },
+    {
+        id: 9,
+        title: "FrankenPHP – Le serveur PHP surpuissant écrit en Go",
+        image: "",
+        categorie: "Technologie",
+        articles: [
+            "FrankenPHP est un serveur d'application PHP moderne développé en GO conçu par Kévin Dunglas dans un souci de somplicité.",
+        ],
+        source: {
+            "FrankenPHP - 30 MAI 2024" : "https://frankenphp.dev/fr",
+            "FrankenPHP - Github" : "https://github.com/dunglas/frankenphp",
+            "Korben" : "https://korben.info/frankenphp-serveur-php-surpuissant-kevin-dunglas.html",
+            "Les-Tilleuls.coop" : "https://les-tilleuls.coop/technologies/frankenphp",
+            "Camping des Speakers" : "https://camping-speakers.fr/sessions/FrankenPHP/",
+            "Efficience IT  - 15 MAI 2024" : "https://www.itefficience.com/article/concretement-cest-quoi-frankenphp",
+            "Kévin Dunglas - Github" : "https://github.com/dunglas",
+        } 
+    },
+    {
+        id: 10,
+        title: "API PLATFORM",
+        categorie: "Technologie",
+        articles: [
+            // "Le serveur d'applications PHP moderne, écrit en Go.",
+            // "Web Awesome est le nouveau nom de Shoelace, la bibliothèque de composants web libre et gratuite la plus populaire.",
+        ],
+        source: {
+            "API PLATFORM" : "https://api-platform.com/docs/distribution/",
+            // "Korben" : "https://korben.info/frankenphp-serveur-php-surpuissant-kevin-dunglas.html",
+            // "Kickstarter" : "https://www.kickstarter.com/projects/fontawesome/web-awesome",
+        } 
+    },
+    {
+        id: 11,
+        title: "Symfony UX",
+        categorie: "Technologie",
+        articles: [
+            // "Le serveur d'applications PHP moderne, écrit en Go.",
+            // "Web Awesome est le nouveau nom de Shoelace, la bibliothèque de composants web libre et gratuite la plus populaire.",
+        ],
+        source: {
+            "symfony UX" : "https://ux.symfony.com",
+            // "Korben" : "https://korben.info/frankenphp-serveur-php-surpuissant-kevin-dunglas.html",
+            // "Kickstarter" : "https://www.kickstarter.com/projects/fontawesome/web-awesome",
+        } 
+    },
     /* {
         id: 9,
         title: "Les Mentions Légales",

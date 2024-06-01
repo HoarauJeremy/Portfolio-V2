@@ -1,4 +1,4 @@
-// import PresentationBts from "../../pages/PresentationBts";
+import PresentationBts from "../../pages/PresentationBts";
 import Competances from "./Competences";
 import Etude from "./Etude";
 import Stage from "./Stage";
@@ -7,7 +7,7 @@ export default function Forma() {
     return (
         <>
 			<div id="formation" className="w-11/12 h-auto mx-auto rounded-md bg-slate-300">
-				{/* <PresentationBts /> */}
+				<PresentationBts />
 				
 				<div id="etude" className="p-3 mx-auto">
 					<div id="titre" className="text-2xl font-bold text-center font-rubik">

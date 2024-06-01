@@ -1,11 +1,11 @@
 import { Link, useLoaderData } from "react-router-dom"
-// import PresentationVeilleT from "./PresentationVeilleT";
+import PresentationVeille from "./PresentationVeille";
 
 export default function Blog() {
     const posts = useLoaderData()
     const postsDesc = posts.sort((a,b) => b.id - a.id);
     return <>
-        {/* <PresentationVeilleT /> */}
+        <PresentationVeille />
         <ul>
             {postsDesc.map((post) => (
                 <li key={post.id}

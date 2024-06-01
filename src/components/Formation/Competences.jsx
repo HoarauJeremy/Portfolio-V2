@@ -1,7 +1,7 @@
 export default function Competances() {
     return(
         <>
-            <div id='comp-liste' className="w-11/12 rounded-md shadow bg-slate-100 shadow-slate-300">
+            <div id='comp-liste' className="w-11/12 mx-auto rounded-md shadow bg-slate-100 shadow-slate-300">
                 <div id='comp-titre' className="mt-3 text-xl font-semibold text-center font-rubik">
                     <h3 className="pt-1">Langages de programation</h3>
                 </div>

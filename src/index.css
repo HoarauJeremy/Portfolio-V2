@@ -4,6 +4,14 @@
 
 @layer components {
     .document {
-        @apply w-2/5 px-3 py-2 m-2 text-center border border-red-600 h-28 inset-1;
+        @apply w-2/5 px-3 py-2 m-2 text-center rounded-md shadow-sm h-28 md:mx-2 md:w-2/5 bg-slate-100 shadow-slate-300;
+    }
+
+    .document-btn {
+        @apply w-full px-1 py-2 mt-3 text-sm font-medium uppercase transition duration-300 ease-in-out delay-150 rounded shadow bg-slate-300 hover:-translate-y-1 hover:bg-slate-500 hover:scale-110;
+    }
+
+    .document-titre {
+        @apply w-full my-2 text-sm font-semibold uppercase;
     }
 }
