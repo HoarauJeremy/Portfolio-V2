@@ -1,10 +1,9 @@
 export default function PresentationVeille() {
     return <>
         <div className="w-full my-3 font-rubik">
-            <h3 className="text-lg font-medium underline">Les technologies et le développement Web: </h3>
-            <p className="mx-2 my-3">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur ea molestias tenetur voluptate provident autem itaque ab nostrum animi maxime saepe iure repellat,
-                nulla accusamus, vel nobis explicabo ut labore.
+            {/* <h3 className="text-lg font-medium underline">Les technologies et le développement Web: </h3> */}
+            <p className="mx-2">
+                Ma veille se concentre sur les technologies et le développement en rapport avec le web.
             </p>
         </div>
         <div className="w-full my-3 font-rubik">
