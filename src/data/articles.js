@@ -105,32 +105,61 @@ export const articles = [
             "Kévin Dunglas - Github" : "https://github.com/dunglas",
         } 
     },
+    // {
+    //     id: 10,
+    //     title: "API PLATFORM",
+    //     categorie: "Technologie",
+    //     articles: [
+    //         // "Le serveur d'applications PHP moderne, écrit en Go.",
+    //         // "Web Awesome est le nouveau nom de Shoelace, la bibliothèque de composants web libre et gratuite la plus populaire.",
+    //     ],
+    //     source: {
+    //         "API PLATFORM" : "https://api-platform.com/docs/distribution/",
+    //         // "Korben" : "https://korben.info/frankenphp-serveur-php-surpuissant-kevin-dunglas.html",
+    //         // "Kickstarter" : "https://www.kickstarter.com/projects/fontawesome/web-awesome",
+    //     } 
+    // },
+    // {
+    //     id: 11,
+    //     title: "Symfony UX",
+    //     categorie: "Technologie",
+    //     articles: [
+    //         // "Le serveur d'applications PHP moderne, écrit en Go.",
+    //         // "Web Awesome est le nouveau nom de Shoelace, la bibliothèque de composants web libre et gratuite la plus populaire.",
+    //     ],
+    //     source: {
+    //         "symfony UX" : "https://ux.symfony.com",
+    //         // "Korben" : "https://korben.info/frankenphp-serveur-php-surpuissant-kevin-dunglas.html",
+    //         // "Kickstarter" : "https://www.kickstarter.com/projects/fontawesome/web-awesome",
+    //     } 
+    // },
     {
-        id: 10,
-        title: "API PLATFORM",
-        categorie: "Technologie",
+        id: 12,
+        title: "Supabase",
+        categorie: "BDD",
         articles: [
-            // "Le serveur d'applications PHP moderne, écrit en Go.",
+            "La base de donnée Supabase, altenative open-source de Firebase sort sa version final.",
             // "Web Awesome est le nouveau nom de Shoelace, la bibliothèque de composants web libre et gratuite la plus populaire.",
         ],
         source: {
-            "API PLATFORM" : "https://api-platform.com/docs/distribution/",
-            // "Korben" : "https://korben.info/frankenphp-serveur-php-surpuissant-kevin-dunglas.html",
-            // "Kickstarter" : "https://www.kickstarter.com/projects/fontawesome/web-awesome",
+            "Supabase - Youtube" : "https://www.youtube.com/watch?v=bRtdk8D4X8w",
+            "Supabase" : "https://supabase.com",
+            "Supabase - Generally Available" : "https://supabase.com/ga-week?utm_source=youtube&utm_medium=video&utm_campaign=youtube&utm_content=brtdk8d4x8w",
+            "Fireship - Supabase in 100 Seconds" : "https://www.youtube.com/watch?v=zBZgdTb-dns",
         } 
     },
     {
-        id: 11,
-        title: "Symfony UX",
-        categorie: "Technologie",
+        id: 13,
+        title: "SurrealDB",
+        categorie: "BDD",
         articles: [
-            // "Le serveur d'applications PHP moderne, écrit en Go.",
+            "La base de donnée SurrealDB,sort sa premier version.",
             // "Web Awesome est le nouveau nom de Shoelace, la bibliothèque de composants web libre et gratuite la plus populaire.",
         ],
         source: {
-            "symfony UX" : "https://ux.symfony.com",
-            // "Korben" : "https://korben.info/frankenphp-serveur-php-surpuissant-kevin-dunglas.html",
-            // "Kickstarter" : "https://www.kickstarter.com/projects/fontawesome/web-awesome",
+            "SurrealDB - Youtube" : "https://www.youtube.com/watch?v=b-EQaeYK0Sk",
+            "Fireship - SurrealDB in 100 Seconds" : "https://www.youtube.com/watch?v=C7WFwgDRStM",
+            "SurrealDB" : "https://surrealdb.com",
         } 
     },
     /* {
